@@ -20,6 +20,8 @@ namespace WpfApp1.View
     /// </summary>
     public partial class LoginView : Window
     {
+
+        //
         public LoginView()
         {
             InitializeComponent();
