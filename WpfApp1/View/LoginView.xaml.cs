@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.AccessControl;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -42,6 +43,17 @@ namespace WpfApp1.View
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void txtb_reset_Click (object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void btn_reset_Click(object sender, RoutedEventArgs e)
+        {
+            textPass.Clear();
+            textUser.Clear();
         }
     }
 }

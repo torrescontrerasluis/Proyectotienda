@@ -125,7 +125,7 @@
                         </Button.Template>
                     </Button>
                 </Grid>
-                
+
                 <StackPanel Width="250"
                             Grid.Row="2"
                             Orientation="Vertical"
@@ -139,7 +139,7 @@
                                FontWeight="Medium"
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
-                    
+
                     <TextBlock Text="Learning  to  code  is  useful  no  matter  what  your  career  ambitions  are."
                                Foreground="LightGray"
                                FontSize="12"
@@ -185,7 +185,7 @@
                                TextWrapping="Wrap"
                                TextAlignment="Center"
                                Margin="0,15,0,0"/>
-                    
+
                     <PasswordBox x:Name="textPass"
                              FontSize="13"
                              FontWeight="Medium"
@@ -244,31 +244,30 @@
                                 HorizontalAlignment="Center"
                                 Margin="0,15,0,0">
 
-                        <TextBlock Text="Forgot.Passwerd?"
+                        <TextBlock Text="Forgot.Password?"
                                Foreground="DarkGray"
                                FontSize="12"
                                FontWeight="Medium"
                                TextAlignment="Center"
                                FontFamily="Montserrat"/>
 
-                        <TextBlock Text="Reset"
-                               Foreground="White"
-                               FontSize="12"
-                               FontWeight="Medium"
-                               TextAlignment="Center"
-                               FontFamily="Montserrat"
-                               Cursor="Hand"
-                               Margin="8,0,0,0"/>
-
                     </StackPanel>
 
                 </StackPanel>
-                
+                <Button x:Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Height="20" Margin="449,445,0,0" Grid.Row="1" VerticalAlignment="Top" Width="42" IsCancel="True" Foreground="White" FontWeight="Bold" Click="btn_reset_Click">
+                    <Button.BorderBrush>
+                        <ImageBrush Stretch="None"/>
+                    </Button.BorderBrush>
+                    <Button.Background>
+                        <ImageBrush Stretch="None"/>
+                    </Button.Background>
+                </Button>
+
             </Grid>
 
 
 
-         </Border>
+        </Border>
     </Border>
 
 
