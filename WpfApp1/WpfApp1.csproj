@@ -58,6 +58,9 @@
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\LoginViwe.xaml.cs">
+      <DependentUpon>LoginViwe.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +74,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoginViwe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,6 +117,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagen\Diaman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagen\upqroo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagen\window.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
