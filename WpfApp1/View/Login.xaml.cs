@@ -13,7 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace WpfApp1.View
-{
+{ 
+    /// login aministrador
+    /// aministrador
     /// <summary>
     /// Lógica de interacción para Login.xaml
     /// </summary>
@@ -25,6 +27,11 @@ namespace WpfApp1.View
         }
 
         private void textUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
         {
 
         }

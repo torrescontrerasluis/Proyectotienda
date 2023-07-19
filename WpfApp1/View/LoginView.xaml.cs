@@ -15,7 +15,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace WpfApp1.View
-{
+{ 
+    /// login aministrador
     /// <summary>
     /// Lógica de interacción para LoginView.xaml
     /// </summary>

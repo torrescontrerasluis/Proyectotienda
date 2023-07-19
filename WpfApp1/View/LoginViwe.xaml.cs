@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 
 namespace WpfApp1.View
 {
+    /// login usuario
     /// <summary>
     /// Lógica de interacción para LoginViwe.xaml
     /// </summary>
